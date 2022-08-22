@@ -26,7 +26,7 @@ function onFormSubmit(event) {
 // получаем значения полей и сохраняем их в хранилище
 
 function onInput() {
-  formData = {
+  let formData = {
     email: form.email.value,
     message: form.message.value,
   };
